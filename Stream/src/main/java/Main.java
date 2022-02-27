@@ -2,9 +2,14 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        Conditioner conditioner = new Conditioner(20);
         Scanner scan = new Scanner(System.in);
-        int number = scan.nextInt();
-        System.out.println("current temp = " + number + "°C");
+        int custom = scan.nextInt();
+
+        //System.out.println("current temp = " + custom + "°C");
+        System.out.println(conditioner.getActualTemp());
+
     }
 }
 
@@ -16,4 +21,7 @@ public class Main {
         - Użytkownik może obniżyć temperaturę w funkcji cool (-1), super-cool (-2) albo custom i wybrać ilość do której ma spadać temperatura
         - Dla chętnych jak masz dużo czasu, możesz symulować spadek temperatury po każdej sekundzie,
          każda zmiana o 1 stopień powinna być odczuwalna w czasie rzeczywistym i po każdej zmianie powinna być ustawiona aktualna temperatura
+int stream range. poczytac o range. Wydzielic do metod i wywolywac metody na obiektach.
+enumy tutoorial
+nieskonczona petla, zeby program dzialal przez caly czas. Do
 */

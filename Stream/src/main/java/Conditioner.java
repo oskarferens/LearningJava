@@ -1,8 +1,29 @@
 public class Conditioner {
-    int[] temp = {19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35} ;
+
     int actualTemp;
-    int desiredTemp;
-    int cool = actualTemp -1;
-    int superCool = actualTemp -2;
-    int custom;
+
+    public void showActualTemp() {
+        System.out.println(actualTemp);
+    }
+
+    public void cool() {
+        actualTemp -= 1;
+    }
+
+    public void superCool() {
+        actualTemp -= 2;
+    }
+
+    public Conditioner(int actualTemp) {
+        this.actualTemp = actualTemp;
+    }
+
+    public int getActualTemp() {
+        return actualTemp;
+    }
+
+    public void setActualTemp(int actualTemp) {
+        this.actualTemp = actualTemp;
+    }
+
 }
