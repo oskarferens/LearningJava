@@ -2,17 +2,19 @@ public class Conditioner {
 
     int actualTemp;
 
-    public void showActualTemp() {
+    public void showActualTemp(int actualTemp) {
         System.out.println(actualTemp);
     }
 
-    public void cool() {
+    public void cool(int actualTemp) {
         actualTemp -= 1;
     }
 
-    public void superCool() {
+    public void superCool(int actualTemp) {
         actualTemp -= 2;
     }
+
+
 
     public Conditioner(int actualTemp) {
         this.actualTemp = actualTemp;

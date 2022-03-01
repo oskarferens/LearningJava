@@ -3,15 +3,21 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Conditioner conditioner = new Conditioner(2);
-        //Scanner scan = new Scanner(System.in);
-        //int custom = scan.nextInt();
+        Conditioner conditioner = new Conditioner(20);
+
+        int i = 2;
+        while (i > 1) {
+            Scanner scan = new Scanner(System.in);
+            int userInput = scan.nextInt();
+            userInput = conditioner.actualTemp;
+            conditioner.showActualTemp(userInput);
+        }
 
         if ((conditioner.actualTemp < 19) || (conditioner.actualTemp > 35)) {
             System.out.println("Incorrect temperature registrated");
         }
+
         //System.out.println("current temp = " + custom + "°C");
-        System.out.println(conditioner.getActualTemp());
 
     }
 }
