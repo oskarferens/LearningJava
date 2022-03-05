@@ -1,10 +1,6 @@
 public class Conditioner {
     int actualTemp;
 
-    public void showActualTemp(int actualTemp) {
-        System.out.println(actualTemp);
-    }
-
     public void cool() {
         actualTemp -= 1;
     }

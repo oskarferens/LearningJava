@@ -2,11 +2,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Room room =  new Room(25);
+        Room room = new Room(25);
 
-        int actualTemp = room.getConditioner().getActualTemp();
-        System.out.println(actualTemp);
         boolean working = true;
+
         while (working) {
             System.out.println("choose an option");
             System.out.println("1 - cool");
@@ -20,11 +19,12 @@ public class Main {
                 break;
                 case 2: room.superCool();
                 break;
-                case 3: room.customCool();
+                case 3: room.customCool(scan);
                 break;
                 case 4: room.exit();
                 break;
             }
+            room.tempChecker();
         }
     }
 }
