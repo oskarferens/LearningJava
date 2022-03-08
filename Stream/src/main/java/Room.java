@@ -32,9 +32,9 @@ public class Room {
     public void tempChecker() {
         int actualTemp = conditioner.getActualTemp();
         if (actualTemp < 15){
-            throw new TooLowTempException("sdfasdfs");
+            throw new TooLowTempException("Lowest possible temperature is 15°C");
         } else if (actualTemp > 35) {
-            throw  new TooHighTempException("gsfgsrfg");
+            throw  new TooHighTempException("Highest possible temperature is 35°C");
         }
         System.out.println(actualTemp);
     }
