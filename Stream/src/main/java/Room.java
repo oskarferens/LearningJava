@@ -15,6 +15,13 @@ public class Room {
     public void cool() {
         conditioner.cool();
     }
+    public void abc() {
+        int x = 1;
+        if(x<5){
+            x++;
+            abc();
+        }
+    }
 
     public void superCool() {
         conditioner.superCool();
@@ -23,10 +30,6 @@ public class Room {
     public void customCool(Scanner scan) {
         System.out.println("set own temp");
         conditioner.customCool(scan.nextInt());
-    }
-
-    public void exit() {
-        boolean working = false;
     }
 
     public void tempChecker() {
@@ -42,5 +45,4 @@ public class Room {
     public Room(int temp) {
         this.conditioner = new Conditioner(temp);
     }
-
 }

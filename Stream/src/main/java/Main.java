@@ -1,5 +1,6 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import Exception.TooLowTempException;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,24 +15,25 @@ public class Main {
             System.out.println("3 - custom");
             System.out.println("0 - exit");
             Scanner scan = new Scanner(System.in);
-            int userInput = scan.nextInt();
             try {
-                int input = userInput;
-            } catch (InputMismatchException e) {
-                System.out.println();
+                int userInput = scan.nextInt();
+                switch(userInput) {
+                    case 1: room.cool();
+                        break;
+                    case 2: room.superCool();
+                        break;
+                    case 3: room.customCool(scan);
+                        break;
+                    case 4: working = false;
+                        break;
+                }
+                room.tempChecker();
             }
-            switch(userInput) {
-                case 1: room.cool();
-                break;
-                case 2: room.superCool();
-                break;
-                case 3: room.customCool(scan);
-                break;
-                case 4: room.exit();
-                break;
+            catch (InputMismatchException | TooLowTempException e) {
+                System.out.println("not a number");
             }
-        room.tempChecker();
-    }
+        }
+        room.abc();
     }
 }
 /*
