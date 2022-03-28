@@ -7,7 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../Stream/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../Stream/src/main/resources" type="java-resource" />
     </content>
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
   </component>
 </module>

@@ -50,6 +50,13 @@ class Main {
                 .collect(Collectors.toList());
     }
 
+    public static Double sumAgeOfPplOlderThan26(List<Person> list) {
+        return list.stream()
+                .mapToDouble(Person::getAge)
+                .filter(a -> a > 26)
+                .sum();
+    }
+
     public static void main(final String[] args) {
         Main main = new Main();
         List<Person> list = main.list;
@@ -68,6 +75,9 @@ class Main {
 
         List<String> checkNamesBartekOrKrzysztof = checkIfBartekOrKrzysztofExisist(list);
         System.out.println(checkNamesBartekOrKrzysztof);
+
+        double sumOfPplOver26 = sumAgeOfPplOlderThan26(list);
+        System.out.println(sumOfPplOver26);
     }
 }
 /*
