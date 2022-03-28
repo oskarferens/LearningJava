@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.DoubleStream;
 
 class Main {
     List<Person> list = new ArrayList<>() {{
@@ -43,6 +42,14 @@ class Main {
                 .findFirst().orElse("There's no name staring with D");
     }
 
+    private static List<String> checkIfBartekOrKrzysztofExisist(List<Person> list) {
+        return list.stream()
+                .map(Person::getName)
+                .filter(name -> name.contains("Bartek"))
+                .filter(name -> name.contains("Krzysztof"))
+                .collect(Collectors.toList());
+    }
+
     public static void main(final String[] args) {
         Main main = new Main();
         List<Person> list = main.list;
@@ -58,6 +65,9 @@ class Main {
 
         String firstNameWithDLetter = getFirstPersonStaringWithD(list);
         System.out.println("first surname starting with D is: " + firstNameWithDLetter);
+
+        List<String> checkNamesBartekOrKrzysztof = checkIfBartekOrKrzysztofExisist(list);
+        System.out.println(checkNamesBartekOrKrzysztof);
     }
 }
 /*
@@ -73,4 +83,3 @@ class Main {
 //                .filter(i -> i%3 ==0 && i%5 ==0)
 //                .forEach(System.out::println);
 //        Napisz funkcyjnie (stream) wyciągniecie z przedziału 100-200 liczb które są podzielne przez 3 i 5 jednocześnie
-
