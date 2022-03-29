@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27702bbb-6313-4146-9cfc-875dfc796175" name="Changes" comment="GIT issues">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Stream/JavaClass.Stream.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Stream/JavaClass.Stream.main.iml" afterDir="false" />
+    <list default="true" id="27702bbb-6313-4146-9cfc-875dfc796175" name="Changes" comment="5/6 tasks done">
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/Files/TextFiles/example-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/Files/TextFiles/example-3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/Files/TextFiles/example.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StreamTask/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/StreamTask/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileLineCounter/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileLineCounter/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StreamTask/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamTask/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +86,7 @@
       <recent name="C:\Users\oskar\IdeaProjects\JavaClass\FileLineCounter\Files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JavaClass.StreamTask.main" />
@@ -109,9 +110,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645734546901</updated>
-      <workItem from="1648495490993" duration="4499000" />
+      <workItem from="1648495490993" duration="8551000" />
     </task>
     <task id="LOCAL-00001" summary="Initial class build + variables.">
       <created>1645875215175</created>
@@ -230,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648480070506</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="5/6 tasks done">
+      <created>1648505563572</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648505563572</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +326,7 @@
     <MESSAGE value="4/6 streams done" />
     <MESSAGE value="streaming names doesn't work" />
     <MESSAGE value="GIT issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="GIT issues" />
+    <MESSAGE value="5/6 tasks done" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/6 tasks done" />
   </component>
 </project>

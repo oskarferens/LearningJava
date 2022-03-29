@@ -1,8 +1,24 @@
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.nio.file.Path;
+import java.util.Scanner;
+import java.util.stream.Stream;
+
+import static java.nio.file.Files.lines;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
+        System.out.println("Podaj sciezke do folderu");
 
+        Scanner scanner = new Scanner(System.in);
+        Path path = Path.of("C:/Users/oskar/IdeaProjects/JavaClass/FileLineCounter/Files/TextFiles/example.txt");
+        System.out.println(path.getFileName());
+
+        try (Stream <String> stream = lines(path)){
+            System.out.println(stream.count());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
 
