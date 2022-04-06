@@ -4,12 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27702bbb-6313-4146-9cfc-875dfc796175" name="Changes" comment="GIT issues">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Stream/JavaClass.Stream.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Stream/JavaClass.Stream.main.iml" afterDir="false" />
+    <list default="true" id="27702bbb-6313-4146-9cfc-875dfc796175" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/7.1.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/7.1.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/7.1.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StreamTask/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/StreamTask/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StreamTask/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamTask/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileLineCounter/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileLineCounter/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +96,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FileLineCounter" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -85,7 +107,7 @@
       <recent name="C:\Users\oskar\IdeaProjects\JavaClass\FileLineCounter\Files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JavaClass.StreamTask.main" />
@@ -109,9 +131,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +145,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645734546901</updated>
-      <workItem from="1648495490993" duration="4499000" />
+      <workItem from="1648495490993" duration="8551000" />
+      <workItem from="1649243009834" duration="2378000" />
     </task>
     <task id="LOCAL-00001" summary="Initial class build + variables.">
       <created>1645875215175</created>
@@ -230,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648480070506</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="5/6 tasks done">
+      <created>1648505563572</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648505563572</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +348,7 @@
     <MESSAGE value="4/6 streams done" />
     <MESSAGE value="streaming names doesn't work" />
     <MESSAGE value="GIT issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="GIT issues" />
+    <MESSAGE value="5/6 tasks done" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/6 tasks done" />
   </component>
 </project>

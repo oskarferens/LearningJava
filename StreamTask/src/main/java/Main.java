@@ -45,8 +45,7 @@ class Main {
     private static List<String> checkIfBartekOrKrzysztofExisist(List<Person> list) {
         return list.stream()
                 .map(Person::getName)
-                .filter(name -> name.contains("Bartek"))
-                .filter(name -> name.contains("Krzysztof"))
+                .filter(name -> name.contains("Bartek")||name.contains("Krzysztof"))
                 .collect(Collectors.toList());
     }
 
