@@ -4,13 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27702bbb-6313-4146-9cfc-875dfc796175" name="Changes" comment="5/6 tasks done">
-      <change afterPath="$PROJECT_DIR$/FileLineCounter/Files/TextFiles/example-2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileLineCounter/Files/TextFiles/example-3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileLineCounter/Files/TextFiles/example.txt" afterDir="false" />
+    <list default="true" id="27702bbb-6313-4146-9cfc-875dfc796175" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/7.1.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/7.1.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/7.1.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileLineCounter/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FileLineCounter/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileLineCounter/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StreamTask/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamTask/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +96,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FileLineCounter" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -125,6 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1645734546901</updated>
       <workItem from="1648495490993" duration="8551000" />
+      <workItem from="1649243009834" duration="2378000" />
     </task>
     <task id="LOCAL-00001" summary="Initial class build + variables.">
       <created>1645875215175</created>
