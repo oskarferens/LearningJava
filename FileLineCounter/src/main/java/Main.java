@@ -27,7 +27,6 @@ public class Main {
 //        Stwórz program który zliczy liczbę linii tekstu dla wszystkich plików w wskazanym folderze
 //        Wynikiem powinna być lista plików wraz z informacją o liczbie linii oraz suma wszystkich linii w folderze.
 //        Generalnie wypakuj i wrzuć do classpath
-
 //        Procesowanie plikow
 //        instancja klasy
 //        program sie zaczyna i wyswietla sie komunikat "podaj sciezke do folderu, ktory ma byc przeskanowany"
@@ -38,3 +37,4 @@ public class Main {
 //        STAGE 2 dodac petle
 //        ktora czeka az wprowadze nazwe pliku i patrzylbym qwteey czy ten plik jestw  pathie
 //        dopisac obsluge bledow, wyjatki, plik nie istnieje itp
+//        git push -u origin feature/ex1
