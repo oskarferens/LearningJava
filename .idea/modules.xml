@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaClass.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FileLineCounter/JavaClass.FileLineCounter.iml" filepath="$PROJECT_DIR$/.idea/modules/FileLineCounter/JavaClass.FileLineCounter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FileLineCounter/JavaClass.FileLineCounter.main.iml" filepath="$PROJECT_DIR$/.idea/modules/FileLineCounter/JavaClass.FileLineCounter.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FileLineCounter/JavaClass.FileLineCounter.test.iml" filepath="$PROJECT_DIR$/.idea/modules/FileLineCounter/JavaClass.FileLineCounter.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Stream/JavaClass.Stream.iml" filepath="$PROJECT_DIR$/.idea/modules/Stream/JavaClass.Stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Stream/JavaClass.Stream.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Stream/JavaClass.Stream.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Stream/JavaClass.Stream.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Stream/JavaClass.Stream.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StreamTask/JavaClass.StreamTask.iml" filepath="$PROJECT_DIR$/.idea/modules/StreamTask/JavaClass.StreamTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StreamTask/JavaClass.StreamTask.main.iml" filepath="$PROJECT_DIR$/.idea/modules/StreamTask/JavaClass.StreamTask.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StreamTask/JavaClass.StreamTask.test.iml" filepath="$PROJECT_DIR$/.idea/modules/StreamTask/JavaClass.StreamTask.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaClass.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaClass.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaClass.test.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaClass.test.iml" />
+    </modules>
+  </component>
+</project>
